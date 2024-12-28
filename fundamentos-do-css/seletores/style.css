@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1 /* Seletor por tag */ {
+    background: darkblue; 
+    color: lightgreen;
+    text-align: center;
+}
+li /* Seletor por tag */{
+    background-color: lightgreen;
+    margin: 15px;
+    list-style: disc;
+}
+
+.menu /* Seletor por classe */{
+    background: lightgray;
+    padding: 10px;
+    color: darkblue;
+}
+
+p.paragrafo /* Seletor por combinação de classes */{
+    color: red;
+    font-size: 1.5em;
+}
+
+li{
+    background-color: lightgreen;
+}
+
+/* Seletores por ID */
+
+#one {
+    background-color: rgb(68, 150, 177);
+    color: white;
+    text-align: center;
+}
+
+#two {
+    background-color: rgb(83, 60, 31);
+    color: white;
+    text-align: center;
+}
+
+#rodape {
+    background-color: darkblue;
+    color: lightgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Seletores por tag e Combinatórios */
+
+#rodape a {
+    color: lightgreen;
+    text-decoration: none;
+}
+
+#rodape a:hover /* Pseudoclasse */ {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+    transition: background-color 0.3s ease-in-out;
+}
