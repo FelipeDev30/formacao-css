@@ -87,3 +87,24 @@ body {
     border-radius: 10px;
     text-align: center;
 }
+
+footer {
+    background-color: darkblue;
+    color: lightgreen;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: rgba(144, 238, 144, 0.63);
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 18px;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    &:hover {
+        color: white;
+    }   
+}
