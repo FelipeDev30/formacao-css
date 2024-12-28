@@ -1,0 +1,89 @@
+/* 
+
+Propriedades Básicas do CSS
+
+Altura e Largura - Width and height
+margin and padding:
+
+A margem se refere ao espaçamento da borda para fora e o padding 
+se refere ao espaçamento entre a borda e o conteúdo.
+
+
+*/
+
+h1 {
+    background-color: darkblue;
+    color: lightgreen;
+    text-align: center;
+    font-size: 24px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.box-1 {
+    width: 200px;
+    height: 100px;
+    background-color: red;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-2 {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-3 {
+    width: 250px;
+    height: 200px;
+    background-color: green;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+}
