@@ -1,0 +1,14 @@
+/* Estilo aplicado aos elementos <div> */
+div {
+    width: 200px; 
+    height: 300px; 
+    border: 5px solid blue; 
+}
+
+/* Estilo aplicado aos elementos <img> */
+img {
+    width: 100%; 
+    height: 100%;  
+    object-fit: cover; /* A imagem é redimensionada para cobrir todo o contêiner, mantendo a proporção original, mas pode ser cortada para preencher completamente o contêiner */
+    object-position: left 10px; /* Alinha a imagem 10 pixels à direita da borda esquerda do contêiner */
+}
