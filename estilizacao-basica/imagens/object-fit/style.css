@@ -1,0 +1,34 @@
+/* Estilo aplicado aos elementos <div> */
+div {
+    width: 200px; 
+    height: 300px; 
+    border: 5px solid blue; 
+}
+
+/* Estilo aplicado aos elementos <img> */
+img {
+    width: 100%; 
+    height: 100%; 
+}
+
+#fill {
+    object-fit: fill; /* A imagem é redimensionada para caber dentro do contêiner, sem alterar a proporção */
+}
+
+/* Estilo aplicado ao elemento com id="contain" */
+#contain {
+    object-fit: contain; /* A imagem é redimensionada para caber dentro do contêiner, mantendo a proporção original */
+}
+
+/* Estilo aplicado ao elemento com id="cover" */
+#cover {
+    object-fit: cover; /* A imagem é redimensionada para cobrir todo o contêiner, podendo ser cortada para manter a proporção */
+}
+
+#none {
+    object-fit: none; /* A imagem não é redimensionada, ela permanece com a proporção original */
+}
+
+#scale-down {
+    object-fit: scale-down; /* A imagem é redimensionada para caber dentro do contêiner, caso seja maior, ela é cortada */
+}
